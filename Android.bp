@@ -1,2 +1,5 @@
 soong_namespace {
+    imports: [
+        "device/oneplus/sm8350-common",
+    ],
 }

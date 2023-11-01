@@ -14,7 +14,8 @@ TARGET_SCREEN_DENSITY := 450
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/oplus/RMX3461
-
+TARGET_KERNEL_CONFIG := vendor/lahaina-qgki_defconfig
+TARGET_KERNEL_NO_GCC := true
 # Lineage Health
 TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/oplus_chg/battery/chg_enable
 
